@@ -48,7 +48,7 @@ if  (int1 < 128){
 }
 if  (int1 > 127){
   digitalWrite ( 13, HIGH);
-  int1 = int1 - 64;
+  int1 = int1 - 128;
 }
 
 if  (int1 < 64){
